@@ -41,7 +41,7 @@
 
     app.put('/equipes/:id', async (req,res) =>{
         const id = req.params.id;
-        const newEquipe =req.body;
+        const newEquipe =req.body;    
         await Equipe.updateOne({"id":id},newEquipe);
         const equipes =await Equipe.find();
         res.status(200).json(equipes);
