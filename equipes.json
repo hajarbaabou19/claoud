@@ -1,0 +1,19 @@
+[
+    {"id" : 1,
+    "equipe":"psg",
+    "pays":"france"
+},
+{"id" : 2,
+"equipe":"mancity",
+"pays":"Royaume-Uni"
+},
+{"id" : 3,
+"equipe":"arslan",
+"pays":"Royaume-Uni"
+},
+{"id" : 4,
+"equipe":"bayern",
+"pays":"Allemagne"
+}
+
+]
